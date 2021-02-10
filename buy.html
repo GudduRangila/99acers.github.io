@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real State Project</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        div.gallery {
+          border: 1px solid #ccc;
+        }
+        
+        div.gallery:hover {
+          border: 1px solid #777;
+        }
+        
+        div.gallery img {
+          width: 100%;
+          height: auto;
+        }
+        
+        div.desc {
+          padding: 15px;
+          text-align: center;
+        }
+        
+        * {
+          box-sizing: border-box;
+        }
+        
+        .responsive {
+          padding: 0 6px;
+          float: left;
+          width: 24.99999%;
+        }
+        
+        @media only screen and (max-width: 700px) {
+          .responsive {
+            width: 49.99999%;
+            margin: 6px 0;
+          }
+        }
+        
+        @media only screen and (max-width: 500px) {
+          .responsive {
+            width: 100%;
+          }
+        }
+        
+        .clearfix:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        </style>
+  </head>
+  <body>
+    <header class="container">
+        <!-- Top header menu containing 
+                  logo and Navigation bar -->
+        <div id="top-header">
+          <!-- Logo -->
+          <div id="logo">
+            <img src="images/logo.jpg" alt="real state logo" />
+          </div>
+          <!-- Navigation Menu -->
+          <nav>
+            <div id="menu">
+              <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li class="active"><a href="about.html">About</a></li>
+                <li class="active"><a href="buy.html">Buy</a></li>
+                <li><a href="sell.html">Sell</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contactform.html">Contact Us</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <!-- image header -->
+        <h1 style="padding: 20px;">Buy House PG/Rent</h1>
+        <!-- <h4>Resize the browser window to see the effect.</h4> -->
+        
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="img_5terre.jpg">
+              <img src="images/1.jpg" alt="Cinque Terre" width="600" height="400">
+            </a>
+            <div class="desc">Price of <strong>Rs </strong>200,000/</div>
+          </div>
+        </div>
+        
+        
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="img_forest.jpg">
+              <img src="images/5.jpg" alt="Forest" width="600" height="400">
+            </a>
+            <div class="desc">Price of <strong>Rs </strong>100,000/</div>
+          </div>
+        </div>
+        
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="img_lights.jpg">
+              <img src="images/3.jpg" alt="Northern Lights" width="600" height="400">
+            </a>
+            <div class="desc">Price of <strong>Rs </strong>90,000/</div>
+          </div>
+        </div>
+        
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="img_mountains.jpg">
+              <img src="images/4.jpg" alt="Mountains" width="600" height="400">
+            </a>
+            <div class="desc">Price of <strong>Rs </strong>70,000/</div>
+          </div>
+        </div>
+        
+        <div class="clearfix"></div>
+        
+        <div style="padding:10px;">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque eligendi nesciunt soluta ducimus dicta dignissimos consequuntur non ut nihil voluptate aliquam neque, sit enim, minima nisi consequatur eaque aut expedita!</p>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quaerat delectus quisquam sapiente maxime laboriosam neque aliquam eaque dolor libero facere, veniam explicabo reprehenderit, accusamus, sunt ducimus numquam quos dignissimos?</p>
+        </div>
+  
+  </body>
+</html>
