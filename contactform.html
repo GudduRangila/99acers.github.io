@@ -30,40 +30,7 @@
           </div>
         </nav>
       </div>
-      <form
-        action="//submit.form"
-        id="ContactUs100"
-        method="post"
-        onsubmit="return ValidateForm(this);"
-      >
-        <!-- <script type="text/javascript">
-    function ValidateForm(frm) {
-      if (frm.Name.value == "") {
-        alert("Name is required.");
-        frm.Name.focus();
-        return false;
-      }
-      if (frm.FromEmailAddress.value == "") {
-        alert("Email address is required.");
-        frm.FromEmailAddress.focus();
-        return false;
-      }
-      if (
-        frm.FromEmailAddress.value.indexOf("@") < 1 ||
-        frm.FromEmailAddress.value.indexOf(".") < 1
-      ) {
-        alert("Please enter a valid email address.");
-        frm.FromEmailAddress.focus();
-        return false;
-      }
-      if (frm.Comments.value == "") {
-        alert("Please enter comments or questions.");
-        frm.Comments.focus();
-        return false;
-      }
-      return true;
-    }
-  </script> -->
+      <form>
         <table
           style="width: 100%; max-width: 550px; border: 0"
           cellpadding="8"
@@ -97,7 +64,7 @@
           </tr>
           <tr>
             <td>
-              <label for="FromEmailAddress">Email address*:</label>
+              <label for="#">Email address*:</label>
             </td>
             <td>
               <input
@@ -133,10 +100,6 @@
                 >
               </div>
               <input name="skip_Submit" type="submit" value="Submit" />
-              <!-- <script
-          src="https://www.100forms.com/js/FORMKEY:FEQQJLN78EG9/SEND:my@email.com"
-          type="text/javascript"
-        ></script> -->
             </td>
           </tr>
         </table>
